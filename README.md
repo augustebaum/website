@@ -1,7 +1,7 @@
 # Auguste Baum's personal website
 
 This is the source code for my personal website,
-[augustebaum.com](augustebaum.com).
+[augustebaum.com](https://augustebaum.com).
 
 It is built with [Hugo](gohugo.io) along with my custom version
 of the [cactus theme](https://github.com/monkeyWzr/hugo-theme-cactus).
