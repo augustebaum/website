@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Auguste&#39;s internet backyard</title>
-    <link>https://augustebaum.com/</link>
+    <link>https://augustebaum.github.io/website/</link>
     <description>Recent content on Auguste&#39;s internet backyard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Auguste Baum</copyright><atom:link href="https://augustebaum.com/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Auguste Baum</copyright><atom:link href="https://augustebaum.github.io/website/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
