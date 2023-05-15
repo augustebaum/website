@@ -60,7 +60,7 @@ weight = 4
     
   #   I have also been involved with [Resilio](hh.com), a start-up aiming to help companies reduce their environmental impact.
   # """
-  description = "My name is Auguste Baum. In case you were wondering, my first name is pronounced like the eighth month of the year. I am currently a Master's student in Data Science at EPFL, in Switzerland.  I have also been involved with [Resilio](https://www.resilio.tech), a start-up aiming to help companies reduce their environmental impact."
+  description = "My name is Auguste Baum. In case you were wondering, my first name is pronounced like the eighth month of the year. I have just graduated with a Master's degree in Data Science at EPFL, in Switzerland. I have also been involved with [Resilio](https://www.resilio.tech), a start-up aiming to help companies reduce their environmental impact."
   mainSection = "posts"
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
