@@ -1,3 +1,10 @@
+---
+title: Nix for Python, attempt number 1
+date: 2023-05-16 00:15:00
+keywords:
+    - nix
+    - python
+---
 # Nix for Python, attempt number 1
 
 Disclaimer: This is less of a tutorial and more of a record of my past experience---in particular, I end up not reaching my stated goal for this post.
@@ -119,16 +126,16 @@ Side note: it seems that a process similar to this one is discussed in this [Twe
 Let's add one line to `flake.nix` to have Python installed:
 ```nix
 {
-	...
-              modules = [
-                {
-                  packages = ...
+  ...
+      modules = [
+        {
+          packages = ...
 
-				  # Install Python, please!
-				  languages.python.enable = true;
+          # Install Python, please!
+          languages.python.enable = true;
 
-                  enterShell = ...
-	...
+          enterShell = ...
+  ...
 }
 ```
 
@@ -144,6 +151,7 @@ After getting into the shell, you should see that the `python` executable is ava
 ```sh
 $ python --version
 Python 3.10.11
+
 $ which python
 /nix/store/x67wafvv3r3ndf2c959qf85nwk1qd9d9-devenv-profile/bin/python
 ```
