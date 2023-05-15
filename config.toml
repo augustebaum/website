@@ -1,6 +1,6 @@
 baseURL = "https://augustebaum.github.io/website"
 languageCode = "en-us"
-title = "Auguste's internet backyard"
+title = "Auguste's website"
 theme = "cactus"
 copyright = "Auguste Baum" # cactus will use title if copyright is not set
 
