@@ -5,8 +5,6 @@ keywords:
   - nix
   - python
 ---
-# Nix for Python, attempt number 1
-
 Disclaimer: This is less of a tutorial and more of a record of my past experience---in particular, I end up not reaching my stated goal for this post.
 
 I've been reading this book on [Hypermedia Systems](https://hypermedia.systems), and one of the things they do is develop a small CRUD application in Python for which the code can be found [here](https://github.com/bigskysoftware/contact-app). Like the good software citizens they are, they've included a full detailed list of their project dependencies as a [`requirements.txt` file](https://github.com/bigskysoftware/contact-app/blob/master/requirements.txt).
