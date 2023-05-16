@@ -76,7 +76,7 @@ weight = 4
   showReadTime = true
 
   [params.comments]
-    enabled = true # default
+    enabled = false # disabled for now
     engine = "cactus_comments" # only disqus, utterances, and cactus_comments is supported
     [params.comments.utterances]
       repo = "<github_username>/<github_reponame>"
