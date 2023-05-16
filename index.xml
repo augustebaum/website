@@ -14,7 +14,7 @@
       <pubDate>Tue, 16 May 2023 00:15:00 +0000</pubDate>
       
       <guid>https://augustebaum.github.io/website/posts/2023-05-16-01-nix-for-python-attempt-no.-1/</guid>
-      <description>Nix for Python, attempt number 1 Disclaimer: This is less of a tutorial and more of a record of my past experience&amp;mdash;in particular, I end up not reaching my stated goal for this post.
+      <description>Disclaimer: This is less of a tutorial and more of a record of my past experience&amp;mdash;in particular, I end up not reaching my stated goal for this post.
 I&amp;rsquo;ve been reading this book on Hypermedia Systems, and one of the things they do is develop a small CRUD application in Python for which the code can be found here. Like the good software citizens they are, they&amp;rsquo;ve included a full detailed list of their project dependencies as a requirements.</description>
     </item>
     
