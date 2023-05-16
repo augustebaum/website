@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Auguste&#39;s website</title>
-    <link>https://augustebaum.github.io/website/</link>
-    <description>Recent content on Auguste&#39;s website</description>
+    <title>Posts on Auguste&#39;s website</title>
+    <link>https://augustebaum.github.io/website/posts/</link>
+    <description>Recent content in Posts on Auguste&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Auguste Baum</copyright>
-    <lastBuildDate>Tue, 16 May 2023 00:15:00 +0000</lastBuildDate><atom:link href="https://augustebaum.github.io/website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 May 2023 00:15:00 +0000</lastBuildDate><atom:link href="https://augustebaum.github.io/website/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nix for Python, attempt number 1</title>
       <link>https://augustebaum.github.io/website/posts/2023-05-16-01-nix-for-python-attempt-no.-1/</link>
@@ -16,15 +16,6 @@
       <guid>https://augustebaum.github.io/website/posts/2023-05-16-01-nix-for-python-attempt-no.-1/</guid>
       <description>Nix for Python, attempt number 1 Disclaimer: This is less of a tutorial and more of a record of my past experience&amp;mdash;in particular, I end up not reaching my stated goal for this post.
 I&amp;rsquo;ve been reading this book on Hypermedia Systems, and one of the things they do is develop a small CRUD application in Python for which the code can be found here. Like the good software citizens they are, they&amp;rsquo;ve included a full detailed list of their project dependencies as a requirements.</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>https://augustebaum.github.io/website/about/</link>
-      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://augustebaum.github.io/website/about/</guid>
-      <description>I&amp;rsquo;ll put some stuff about me here eventually, or not.</description>
     </item>
     
   </channel>
