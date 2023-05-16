@@ -26,7 +26,7 @@ in your shell, in the root directory.
 
 You can also run
 ```sh
-hugo server
+hugo serve
 ```
 to have the site served locally and reloaded whenever you make
 a change to the code. If you use this, I recommend using a
