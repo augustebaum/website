@@ -182,7 +182,31 @@ We need to pipe this into our flake file, but where?
 
 Our Python packages are project dependencies, so based on the Nix wiki, it would make sense for them to fit in the `inputs` attribute of the flake. However, the inputs are [supposed to be flakes themselves](https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake.html#flake-inputs), which our python packages aren't. So, are we done? I suspect there is a way to create some ad hoc flakes that serve only for pleasing Nix, but I don't know how to do that. ^^'
 
-In conclusion, there are [many tools currently being built] to make the process of tracking dependencies through Nix easier---but I don't feel like we're there yet. For example, [dream2nix](https://nix-community.github.io/dream2nix/) aims to be the one tool to be used for solving this for all languages, but it unstable and only supports a handful of languages. Perhaps I'll try their ["Build you Python project in 10 minutes" tutorial](https://nix-community.github.io/dream2nix/guides/getting-started-python.html) in a future post.
+---
+
+A little later, I settled for an easier yet less reproducible solution: install virtualenv and install the dependencies stated in `requirements.txt` using pip.This requires adding this line to `flake.nix`:
+```nix
+{
+  ...
+      modules = [
+        {
+          packages = ...
+
+          # Install Python, please!
+          languages.python.enable = true;
+          # Also virtualenv, please!
+          languages.python.virtualenv.enable = true;
+
+          enterShell = ...
+  ...
+}
+```
+After that, Nix will do what it needs to do, and after I am dropped into the devshell I can run
+```sh
+pip install -r requirements.txt
+```
+
+In conclusion, even within Nix, there are many concurrent ways to make the process of tracking dependencies easier---and I'll need to do some more digging to find the right one for me. For example, [dream2nix](https://nix-community.github.io/dream2nix/) aims to be the one tool to be used for solving this for all languages, but it unstable and only supports a handful of languages. Perhaps I'll try their ["Build you Python project in 10 minutes" tutorial](https://nix-community.github.io/dream2nix/guides/getting-started-python.html) in a future post.
 
 ---
 
