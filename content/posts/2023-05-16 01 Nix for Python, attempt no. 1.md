@@ -2,8 +2,8 @@
 title: Nix for Python, attempt number 1
 date: 2023-05-16 00:15:00
 keywords:
-    - nix
-    - python
+  - nix
+  - python
 ---
 # Nix for Python, attempt number 1
 
@@ -25,7 +25,7 @@ I fork the hypermedia project repository and clone it on my machine. I create an
 nix flake init
 ```
 and stage it (otherwise Nix won't take it into account):
-```
+```sh
 git add flake.nix
 ```
 
