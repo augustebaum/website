@@ -1,6 +1,6 @@
 ---
 title: Nix for Python, attempt number 2
-date: 2023-05-17
+date: 2023-05-19
 keywords:
   - nix
   - python
