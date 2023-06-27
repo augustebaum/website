@@ -44,6 +44,9 @@ weight = 4
     noClasses = true
     style = "dracula"
     tabWidth = 4
+  [markup.goldmark.renderer]
+    unsafe = true
+
 
 [params]
   colortheme = "white" # dark, light, white, or classic
