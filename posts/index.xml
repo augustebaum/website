@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Auguste Baum</copyright>
-    <lastBuildDate>Mon, 29 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://augustebaum.github.io/website/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://augustebaum.github.io/website/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first time on GTA</title>
+      <link>https://augustebaum.github.io/website/posts/2023-06-27-04-my-first-time-on-gta/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://augustebaum.github.io/website/posts/2023-06-27-04-my-first-time-on-gta/</guid>
+      <description>A few weeks ago I was proven right. I didn&amp;rsquo;t like it.
+When I was young I played video games a fair amount. My history with screens started early on, when I watched TV in the morning before going to school. One day, I found an old Game Boy Advance with a cartridge in. I don&amp;rsquo;t remember what the game was, though it might have been Super Mario Advance. The screen was hard to see.</description>
+    </item>
+    
     <item>
       <title>A Weekend on Neural Network Interpretability</title>
       <link>https://augustebaum.github.io/website/posts/2023-05-29-03-a-weekend-on-neural-network-interpretability/</link>
